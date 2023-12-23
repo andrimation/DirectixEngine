@@ -1,4 +1,7 @@
 #pragma once
+
+#include <Windows.h>
+
 class Window
 {
 	Window();
@@ -8,5 +11,8 @@ class Window
 	bool release();
 
 	~Window();
+
+protected:
+	HWND m_hwnd;
 };
 
