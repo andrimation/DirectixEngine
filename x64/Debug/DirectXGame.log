@@ -1,6 +1,6 @@
 ﻿  AppWindow.cpp
-  GraphicsEngine.cpp
-  main.cpp
+D:\Nauka\DirectX_Engine\DirectixEngine\AppWindow.cpp(24,98): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nauka\DirectX_Engine\DirectixEngine\AppWindow.cpp(24,94): warning C4305: 'argument': truncation from 'double' to 'float'
   Window.cpp
-  Generowanie kodu...
-  DirectXGame.vcxproj -> C:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\DirectXGame.exe
+  Generating Code...
+  DirectXGame.vcxproj -> D:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\DirectXGame.exe

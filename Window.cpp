@@ -15,6 +15,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
 		// Event fired when the window is created
 		Window* window = (Window*)((LPCREATESTRUCT)lparam)->lpCreateParams;
 		SetWindowLongPtr(hwnd, GWLP_USERDATA, (LONG_PTR)window);
+		window->setHWND(hwnd);
 		window->onCreate();
 		break;
 	}
@@ -84,13 +85,13 @@ bool Window::broadcast()
 {
 	MSG msg;
 
+	this->onUpdate();
+
 	while (::PeekMessage(&msg, NULL, 0, 0, PM_REMOVE) > 0)
 	{
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
 	}
-
-	this->onUpdate();
 
 	Sleep(0);
 
@@ -124,6 +125,18 @@ void Window::onUpdate()
 void Window::onDestroy()
 {
 	m_is_run = false;
+}
+
+RECT Window::getClientWindowRect()
+{
+	RECT rc;
+	::GetClientRect(this->m_hwnd, &rc);
+	return rc;
+}
+
+void Window::setHWND(HWND hwnd)
+{
+	this->m_hwnd = hwnd;
 }
 
 Window::~Window()

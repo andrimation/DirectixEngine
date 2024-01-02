@@ -18,6 +18,9 @@ public:
 	virtual void onUpdate();
 	virtual void onDestroy();
 
+	RECT getClientWindowRect();
+	void setHWND(HWND hwnd);
+
 	~Window();
 
 protected:

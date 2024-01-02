@@ -1,4 +1,6 @@
-C:\Nauka\DirectX_Engine\DirectixEngine\AppWindow.cpp;C:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\AppWindow.obj
-C:\Nauka\DirectX_Engine\DirectixEngine\GraphicsEngine.cpp;C:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\GraphicsEngine.obj
-C:\Nauka\DirectX_Engine\DirectixEngine\main.cpp;C:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\main.obj
-C:\Nauka\DirectX_Engine\DirectixEngine\Window.cpp;C:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\Window.obj
+D:\Nauka\DirectX_Engine\DirectixEngine\AppWindow.cpp;D:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\AppWindow.obj
+D:\Nauka\DirectX_Engine\DirectixEngine\DeviceContext.cpp;D:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\DeviceContext.obj
+D:\Nauka\DirectX_Engine\DirectixEngine\GraphicsEngine.cpp;D:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\GraphicsEngine.obj
+D:\Nauka\DirectX_Engine\DirectixEngine\main.cpp;D:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\main.obj
+D:\Nauka\DirectX_Engine\DirectixEngine\SwapChain.cpp;D:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\SwapChain.obj
+D:\Nauka\DirectX_Engine\DirectixEngine\Window.cpp;D:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\Window.obj
