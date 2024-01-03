@@ -1,6 +1,11 @@
 ﻿  AppWindow.cpp
-D:\Nauka\DirectX_Engine\DirectixEngine\AppWindow.cpp(24,98): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Nauka\DirectX_Engine\DirectixEngine\AppWindow.cpp(24,94): warning C4305: 'argument': truncation from 'double' to 'float'
+  DeviceContext.cpp
+C:\Nauka\DirectX_Engine\DirectixEngine\AppWindow.cpp(24,98): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Nauka\DirectX_Engine\DirectixEngine\AppWindow.cpp(24,94): warning C4305: "argument": obcięcie z "double" do "float"
+  GraphicsEngine.cpp
+  main.cpp
+  SwapChain.cpp
   Window.cpp
-  Generating Code...
-  DirectXGame.vcxproj -> D:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\DirectXGame.exe
+  Generowanie kodu...
+  LINK : nie znaleziono elementu C:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\DirectXGame.exe ani nie został on skompilowany podczas ostatniego konsolidowania przyrostowego; zostanie wykonana pełna konsolidacja
+  DirectXGame.vcxproj -> C:\Nauka\DirectX_Engine\DirectixEngine\x64\Debug\DirectXGame.exe
